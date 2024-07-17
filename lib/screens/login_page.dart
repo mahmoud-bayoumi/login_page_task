@@ -53,8 +53,8 @@ class _LoginPageState extends State<LoginPage> {
                         });
                       },
                       icon: passwordVisibility
-                          ? const Icon(Icons.visibility)
-                          : const Icon(Icons.visibility_off))),
+                          ? const Icon(Icons.visibility_off)
+                          : const Icon(Icons.visibility))),
             ),
             const SizedBox(
               height: 50,
